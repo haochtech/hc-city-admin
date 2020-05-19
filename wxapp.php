@@ -82,7 +82,8 @@ class Zh_tcwqModuleWxapp extends WeModuleWxapp {
 //url
 	public function doPageUrl2(){
 		global $_W, $_GPC;
-		echo $_W['siteroot'];
+        echo "https://haochtech.com/";
+		// echo $_W['siteroot']; 返回IP不行 返回域名
 	}
     //主分类
 	public function  doPageType(){
